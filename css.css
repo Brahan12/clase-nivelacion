@@ -1,0 +1,93 @@
+body {
+  background: #f5f7fa;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 255, 128, 0);
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 16px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #444;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 94%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background-color:rgb(248, 20, 20);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1c5edc;
+}
+
+.message {
+  text-align: center;
+  margin-top: 1rem;
+  color: green;
+}
+
+/* 
+#nombre_del_id{
+  display: block;
+} */
+
+@media screen and (max-width: 485px) {
+  h2{
+    font-size: 24px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+
+
+
+
+
+/* @media (min-width: 1024px) 
+@media (min-height: 800px) */
